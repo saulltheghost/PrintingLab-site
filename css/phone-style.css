@@ -1,0 +1,87 @@
+.header .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.header .container .nav ul {
+  width: 80%;
+  padding: 0;
+}
+.header .container .nav ul li a {
+  width: 120px;
+}
+.header .landing .child-container {
+  width: 400px;
+}
+.header .landing .child-container .img img {
+  width: 100%;
+  right: 50%;
+  transform: translatex(50%);
+  -webkit-transform: translatex(50%);
+  -moz-transform: translatex(50%);
+  -ms-transform: translatex(50%);
+  -o-transform: translatex(50%);
+}
+.header .landing .child-container .links {
+  width: auto;
+  left: 50%;
+  transform: translatex(-50%);
+  -webkit-transform: translatex(-50%);
+  -moz-transform: translatex(-50%);
+  -ms-transform: translatex(-50%);
+  -o-transform: translatex(-50%);
+}
+.header .landing .child-container .links a:hover {
+  box-shadow: none;
+  color: var(--frth-color);
+}
+.explore {
+  height: auto;
+}
+.explore .container {
+  grid-template-columns: repeat(1, 1fr);
+}
+.explore .container .text {
+  padding: 0 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+.explore .container .text p {
+  margin: auto;
+}
+.products .container {
+  grid-template-columns: repeat(1, 1fr);
+}
+.products .container .product {
+  grid-template-rows: repeat(2, 1fr);
+}
+.products .container .product img {
+  margin-bottom: 50px;
+}
+.prices .container .plastice-price {
+  grid-template-columns: repeat(1, 1fr);
+}
+.prices .container .paper-price {
+  grid-template-columns: repeat(1, 1fr);
+}
+.prices .container .plastice-price .bag-price img {
+  width: 60%;
+  margin-bottom: 40px;
+}
+.prices .container .plastice-price .bag-price p {
+  width: 50%;
+}
+.prices .container a:hover {
+  box-shadow: none;
+}
+.prices .container h1:last-child {
+  color: var(--main-color);
+}
+footer {
+  width: 100%;
+  height: auto;
+}
+footer .links {
+  width: 50%;
+}
